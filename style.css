@@ -115,10 +115,11 @@ header nav{
 .contenido{
     position: absolute;
     margin-top: 80px;
+    margin-left:3%;
 }
 
 .imagenes{
-    columns: 5 240px;
+    columns: 5 280px;
     margin: auto;
 }
 
@@ -192,7 +193,7 @@ header nav{
 
 /*     justify-content: baseline. Flex frog */
 
-@media (max-width: 1200px){
+@media (max-width: 1279px){
     .imagenes{
         columns: 3 200px;
         margin-left: 2%;
